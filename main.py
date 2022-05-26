@@ -14,3 +14,6 @@ for cu_img in myList:
     images.append(current_Img)
     personNames.append(os.path.splitext(cu_img)[0])
 print(personNames)
+
+def faceEncodings(images):
+    encodeList = []
