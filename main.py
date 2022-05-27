@@ -34,4 +34,4 @@ def attendance(name):
             time_now = datetime.now()
             tStr = time_now.strftime('%H:%M:%S')
             dStr = time_now.strftime('%d/%m/%Y')
-            f.writelines(f'\n{name},{tStr},{dStr}'
+            f.writelines(f'\n{name},{tStr},{dStr}')
